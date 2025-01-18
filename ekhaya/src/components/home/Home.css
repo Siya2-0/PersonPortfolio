@@ -1,0 +1,8 @@
+.HomePage{
+    background-image: url("../../../public/img/gray-floral-border-background.jpg");
+    background-size: "cover";
+    height: 100vh;
+    margin-top: -60px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+}
