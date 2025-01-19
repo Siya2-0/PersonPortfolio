@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Home from './components/home/Home.jsx';
 import Header from './components/header/Header.jsx'
+import Navigation from './components/navigation/Navigation.jsx'
 
 function App() {
   return (
     <div>
       <Header/>
+      <Navigation/>
       <Home />
 
     </div>
