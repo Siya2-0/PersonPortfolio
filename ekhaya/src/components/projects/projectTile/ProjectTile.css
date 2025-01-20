@@ -1,0 +1,32 @@
+
+.Tile {
+    width: 60%;
+    height: 35vh;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ECEBDE;
+    border-radius: 20px;
+}
+
+.TileContent {
+    width: 50%;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+}
+
+.Links a {
+    margin-bottom: 5px;
+}
+
+.Video {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

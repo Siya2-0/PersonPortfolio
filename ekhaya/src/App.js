@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
 import Home from './components/home/Home.jsx';
-import Header from './components/header/Header.jsx'
-import Navigation from './components/navigation/Navigation.jsx'
+import Header from './components/header/Header.jsx';
+import Projects from './components/projects/Projects.jsx';
+import Navigation from './components/navigation/Navigation.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Navigation/>
       <Home />
+      <Projects/>
 
     </div>
   );
