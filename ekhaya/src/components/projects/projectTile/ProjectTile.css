@@ -17,11 +17,15 @@
 
 .Links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
 }
 
 .Links a {
     margin-bottom: 5px;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Ensure the link inherits the color from its parent */
+    margin: 5px;
 }
 
 .Video {
@@ -29,4 +33,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.LinkIcon{
+    width: 100%;
+    height: 7vh;
+    
+
+}
+
+.LiveButton {
+    height: 7vh;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px; /* Rounded edges */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }

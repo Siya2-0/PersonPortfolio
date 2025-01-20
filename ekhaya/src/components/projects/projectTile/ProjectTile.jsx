@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProjectTile.css'
+import imageurl from '../../../img/github_original_wordmark_logo_icon_146506.png'
 
 export default function ProjectTile() {
 
@@ -11,8 +12,13 @@ export default function ProjectTile() {
             <h2>Title Name</h2>
             <p>Description of the project goes here.</p>
             <div className='Links'>
-              <a href="#link1">Link 1</a>
-              <a href="#link2">Link 2</a>
+            <a href="#link1">
+                <img className='LinkIcon' src={imageurl} alt="Description of the image" />
+            </a>
+            <a href="#link2">  
+            <button className='LiveButton'>Visit site</button>
+            </a>
+            
             </div>
           </div>
           <div className='Video'>
