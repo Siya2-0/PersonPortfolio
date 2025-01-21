@@ -1,0 +1,30 @@
+.about-me-container {
+    display: flex;
+    min-height: 70vh; /* Full viewport height */
+}
+
+.section1 {
+    flex: 1; /* Takes up the entire left half */
+    background-color: grey; /* Grey background */
+    border: none;
+    margin : 10px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Takes up the entire right half */
+}
+
+.section2, .section3 {
+    flex: 1; /* Each takes up half of the right container */
+    background-color: grey; /* Grey background */
+    border: none; /* No border lines */
+    margin : 10px;
+}
+
+.SectionTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

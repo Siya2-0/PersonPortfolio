@@ -4,6 +4,8 @@ import Home from './components/home/Home.jsx';
 import Header from './components/header/Header.jsx';
 import Projects from './components/projects/Projects.jsx';
 import Navigation from './components/navigation/Navigation.jsx';
+import Skills from './components/skills/Skills.jsx';
+import AboutMe from './components/aboutme/AboutMe.jsx'
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <Navigation/>
       <Home />
       <Projects/>
-
+      <Skills/>
+      <AboutMe/>
     </div>
   );
 }

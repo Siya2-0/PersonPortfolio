@@ -1,0 +1,23 @@
+.SkillsPage{
+   
+    min-height: 100vh;
+  
+}
+
+
+.SectionTitle{
+
+}
+
+
+.SkillsPage  div{
+    margin : 10px
+}
+
+.SectionTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
