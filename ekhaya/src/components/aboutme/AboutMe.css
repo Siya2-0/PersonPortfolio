@@ -1,13 +1,23 @@
 .about-me-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30vh 30vh;
+    grid-gap: 1em;
     min-height: 70vh; /* Full viewport height */
 }
 
 .section1 {
-    flex: 1; /* Takes up the entire left half */
-    background-color: grey; /* Grey background */
+    grid-row: 1/2;
+    grid-column: 1/2;
     border: none;
-    margin : 10px;
+    background-color: #ECEBDE;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center ;
+    text-align: center;
+
 }
 
 .right-container {
@@ -16,11 +26,51 @@
     flex: 1; /* Takes up the entire right half */
 }
 
-.section2, .section3 {
-    flex: 1; /* Each takes up half of the right container */
-    background-color: grey; /* Grey background */
+.section2{
+    grid-row: 1/2;
+    grid-column: 2/4;
+   
     border: none; /* No border lines */
-    margin : 10px;
+    background-color: #ECEBDE;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+    text-align: center;
+
+}
+.section3{
+    grid-row: 2/3;
+    grid-column: 1/3;
+    border: none; /* No border lines */
+    background-color: #ECEBDE;
+    border-radius: 20px;
+   
+   
+    
+}
+.section3 h3{
+    display: flex;
+    justify-content:center;
+    align-items: center ;
+    text-align: center;
+
+}
+
+.section3 div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: space-evenly ;
+    text-align: center;
+    
+
+}
+.section4{
+    border: none; /* No border lines */
+    background-color: #ECEBDE;
+    border-radius: 20px;
+    grid-row: 2/3;
+    grid-column: 3/4;
 }
 
 .SectionTitle{
@@ -28,3 +78,73 @@
     justify-content: center;
     align-items: center;
 }
+
+.profile-image {
+    width: 60px;
+    height:60px;
+    border-radius: 50%; /* Circular border */
+    border: 1px solid #ffffff; /* Border color and width */
+    object-fit: cover; /*Ensure the image covers the entire area */
+    margin-bottom: 10px; 
+}
+
+
+.blink-animation-container{
+
+    background-color: #000000;
+    color : white;
+    display: flex;
+    width: 60%;
+    justify-content:center;
+    align-items: center ;
+    margin-bottom: 5px; 
+
+}
+
+.blink-animation{
+    background-color: #45db09;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%; 
+    margin-right: 5%;
+    animation: blink 1s infinite;
+
+}
+
+@keyframes blink {
+    0%, 100% {
+        transform: scale(1); /* Initial and final state */
+    }
+    50% {
+        transform: scale(2); /* Middle state (increase size) */
+    }
+}
+
+
+.custom-border {
+    position: relative;
+    padding: 5px;
+    border: 2px solid transparent; /* To prevent content shift */
+  }
+  
+  .custom-border::before,
+  .custom-border::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; /* To allow clicks through borders */
+  }
+  
+  .custom-border::before {
+    border: 2px solid black; /* Outer border */
+    transform: translate(-3px, -3px); /* Move independently */
+  }
+  
+  .custom-border::after {
+    border: 2px solid black; /* Inner border */
+    transform: translate(3px, 3px); /* Move independently */
+  }
+  
