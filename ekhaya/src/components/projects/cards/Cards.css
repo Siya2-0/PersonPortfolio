@@ -1,0 +1,80 @@
+::-webkit-scrollbar{
+    display: none   ;
+}
+
+
+section {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #000;
+} 
+
+.sticky-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+
+}
+
+.sticky-header h1{
+    font-size: 20vw;
+    font-weight: lighter;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    text-align: center;
+}
+
+.card{
+    position: absolute;
+    top:150%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 1em;
+    will-change: transform;
+    overflow: hidden;
+    opacity: 0.1;
+}
+
+#card-1{
+    background: url(../../../img/water-drop-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    border: 2px solid rgba(236,183,76,0.35);
+}
+
+#card-2{
+    background: url(../../../img/water-drop-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    border: 2px solid rgba(125,216,205 ,0.35);
+}
+
+
+.card-phase{
+    position: absolute;
+    top: 1em;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 0.125em 0.25em;
+    border-radius: 0.25em;
+    color: black;
+
+}
+
+.card-phase p{
+    font-size: 24px;
+}
+#card-1 .card-phase{
+    background-color: #ecb74c;
+}
+#card-2 .card-phase{
+    background-color: #7dd8cd;
+}
+

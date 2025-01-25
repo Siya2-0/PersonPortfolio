@@ -27,7 +27,7 @@ export default function Skills() {
                     <li>AWS Serverless</li>
                     <li>BSc Computer Science</li>
                 </ul>
-        </div>
+    </div>
        
       </div>
     );
