@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 
 export default function Home() {
     return (
+      <section className='pinned'>
       <div className='HomePage'>
         <div className='AnimatedText'>
         <Typewriter
@@ -24,5 +25,6 @@ export default function Home() {
         </div>     
        
       </div>
+      </section>
     );
   }

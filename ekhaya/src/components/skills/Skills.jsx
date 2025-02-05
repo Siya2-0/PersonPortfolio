@@ -4,6 +4,7 @@ import "./Skills.css";
 
 export default function Skills() {
     return (
+      <section className='pinned'>
       <div className='SkillsPage'>
 
       <div className='Skills'>
@@ -30,5 +31,6 @@ export default function Skills() {
     </div>
        
       </div>
+      </section>
     );
   }

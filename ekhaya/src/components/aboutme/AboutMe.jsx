@@ -5,7 +5,7 @@ import profileImage from '../../img/ID photo.jpeg'
 
 export default function AboutMe() {
     return (
-      <>
+    <section className='pinned'>
       <h1 className='SectionTitle'>AboutMe</h1>
       <div className="about-me-container">
       
@@ -40,7 +40,7 @@ export default function AboutMe() {
             </div>
            
         </div>
-        </>
+        </section>
     );
   }
 

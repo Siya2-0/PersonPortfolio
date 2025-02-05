@@ -6,6 +6,8 @@ import Projects from './components/projects/Projects.jsx';
 import Navigation from './components/navigation/Navigation.jsx';
 import Skills from './components/skills/Skills.jsx';
 import AboutMe from './components/aboutme/AboutMe.jsx'
+import cards from './components/projects/cards/Cards.jsx'
+import Cards from './components/projects/cards/Cards.jsx';
 
 function App() {
   return (
@@ -13,9 +15,9 @@ function App() {
       <Header/>
       <Navigation/>
       <Home />
-      <Projects/>
       <Skills/>
       <AboutMe/>
+      {/* <Cards/> */}
     </div>
   );
 }

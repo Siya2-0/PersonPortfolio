@@ -3,7 +3,8 @@ import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
-
+import '../../App.css'
+import logo from '../../img/sm-high-resolution-logo-transparent.png'
 export default function Header() {
 
 
@@ -11,15 +12,14 @@ export default function Header() {
 
         <>
         <div class="header">
-        <a href="#default" class="logo">SM</a>
-        <div class="header-right">
-            <a  href="#home">
-                <FontAwesomeIcon icon={faLink} />
-            </a>
-            <a href="#contact">
-                <FontAwesomeIcon icon={faEnvelope} />
-            </a>
-        </div>
+        <img src={logo} alt="SM"  id='logo'/> 
+       
+
+        <a href="#contact" id="LinkedInLink">
+            LinkedIn
+        </a>
+    
+      
         </div>
         </>
 
