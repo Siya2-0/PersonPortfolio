@@ -11,14 +11,14 @@ import Cards from './components/projects/cards/Cards.jsx';
 
 function App() {
   return (
-    <div>
+    <>
       <Header/>
       <Navigation/>
       <Home />
-      <Skills/>
-      <AboutMe/>
+       <Skills/>
+      {/*<AboutMe/> */}
       {/* <Cards/> */}
-    </div>
+    </>
   );
 }
 

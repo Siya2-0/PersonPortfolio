@@ -5,7 +5,17 @@ import "./Skills.css";
 export default function Skills() {
     return (
       <section className='pinned'>
-      <div className='SkillsPage'>
+
+      <div className="carousel">
+        <div className="group-one">
+           <div className="card animate">
+            <div className="skill-logo">
+              <img src='' atl></img>
+            </div>
+            <div className="skill-name"></div>
+           </div>
+        </div>
+      </div>
 
       <div className='Skills'>
             <h1 className='SectionTitle'>Skills</h1>
@@ -30,7 +40,6 @@ export default function Skills() {
                 </ul>
     </div>
        
-      </div>
-      </section>
+    </section>
     );
   }

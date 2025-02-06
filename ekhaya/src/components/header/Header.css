@@ -4,12 +4,14 @@
     overflow: hidden;
     background-color: var(--color-primary);
     padding-left: 4.0rem; /* Add padding to the left side */
-    padding-right: 12.0rem;
+    padding-right: 8.0rem;
     height: 15vh;
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content:space-between
+    justify-content:space-between;
+    position:relative;
+    /* z-index: 2; */
   }
   
 
@@ -21,8 +23,19 @@
  
   }
 
+  #GithubLink{
+  
+    font-size: var(--font-size-xlarge); 
+    text-decoration: none;
+    color: black; 
+    letter-spacing: 4px; 
+    padding: 1.0rem 2rem; /* Add padding for better appearance */
+    border-radius: 1rem;
+
+
+  }
 #LinkedInLink{
-  float:right;
+  
   font-size: var(--font-size-xlarge); 
   /* align-self: center;
   justify-self: center; */
@@ -39,7 +52,13 @@
   color: white; /* Change text color to white on hover */
   border-radius: 10px; /* Increase rounded edges on hover */
 }
+.linkContainer{
+  float:right;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
+}
 
 
   

@@ -60,3 +60,11 @@
   --font-size-xlarge: 1.25rem;
 
 }
+
+section {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+} 

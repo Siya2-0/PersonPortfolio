@@ -10,18 +10,22 @@ export default function Header() {
 
     return (
 
-        <>
+        
         <div class="header">
         <img src={logo} alt="SM"  id='logo'/> 
        
-
+        <div className="linkContainer">
         <a href="#contact" id="LinkedInLink">
             LinkedIn
         </a>
+        <a href="#contact" id="GithubLink">
+            Github
+        </a>
+        </div>
     
       
         </div>
-        </>
+        
 
     );
 
