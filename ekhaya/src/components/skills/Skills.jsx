@@ -7,10 +7,13 @@ import python from '../../img/python.png'
 import cplusplus from '../../img/cplusplus.png'
 import css from '../../img/css.png'
 import android from '../../img/android.png'
-import django from '../../img/Django_logo.svg (1).png'
+import django from '../../img/1000px-Django_logo.png'
 import html from '../../img/html.png'
 import react from '../../img/react.png'
-
+import docker from '../../img/Docker-Symbol.png'
+import up from '../../img/University-of-Pretoria.jpeg'
+import serveless from '../../img/aws-training-badge-serverless-technology.a0d2d10c665985544d91af81aaf362e9d31a9116.png'
+import cloud from '../../img/cloudPractioner.png'
 
 
 
@@ -80,11 +83,50 @@ export default function Skills() {
             </div>
             <div className="skill-name">HTML</div>
         </div>
+
+        <div className="item item9">
+            <div className="skill-logo">
+              <img src={docker} alt='Docker'></img>
+            </div>
+            <div className="skill-name">Docker</div>
+        </div>
+
+        <div className="item item10">
+            <div className="skill-logo">
+              <img src={django} alt='Django'></img>
+            </div>
+            <div className="skill-name">Django</div>
+        </div>
       
       </div>
 
 
- 
+      <div className='CertificationList'>
+        <div className="certificate">
+          <div className="certificate-logo">
+                <img src={up} alt='UP'></img>
+          </div>
+          <div className="certificate-name">Bsc Computer Science</div>  
+        
+        </div>
+
+        <div className="certificate">
+          <div className="certificate-logo">
+                <img src={serveless} alt='serveless'></img>
+          </div>
+          <div className="certificate-name">AWS Serverless</div>  
+  
+        </div>
+
+        <div className="certificate">
+          <div className="certificate-logo">
+                <img src={cloud} alt='cloud'></img>
+          </div>
+          <div className="certificate-name">AWS Cloud Practitioner</div>  
+        
+        </div>
+
+      </div>
       
         
 
