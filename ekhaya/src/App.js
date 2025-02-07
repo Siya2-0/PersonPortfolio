@@ -16,7 +16,7 @@ function App() {
       <Navigation/>
       <Home />
        <Skills/>
-      {/*<AboutMe/> */}
+      <Projects/>
       
     </>
   );

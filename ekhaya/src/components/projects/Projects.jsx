@@ -6,14 +6,9 @@ import Cards from './cards/Cards'
 
 export default function Projects() {
     return (
-      // <div className='Project'>
-      //   <h1 className='SectionTitle'>Project</h1>
-    
-     
-      //   <Cards/>
-      //   </div>
-      <>
-      <Cards/>
-      </>
+      <section className='ProjectSection'>
+        <h1>Projects.</h1>
+
+      </section>
     );
   }

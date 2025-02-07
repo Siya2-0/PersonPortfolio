@@ -14,3 +14,16 @@
     justify-content: center;
     align-items: center;
 }
+
+.ProjectSection{
+    background-color: var(--color-primary);
+    text-align: center;
+
+}
+
+.ProjectSection h1{
+    font-size: 5rem;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+    color:black;
+}
