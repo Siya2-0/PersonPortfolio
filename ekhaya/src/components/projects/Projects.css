@@ -1,6 +1,6 @@
 
 
-.Project{
+/* .Project{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,17 +13,159 @@
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.card{
+    position: relative;
+    /* top:150%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(0deg); */
+    width: 40%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 1em;
+    will-change: transform;
+    overflow: hidden;
+    opacity:1 ;
 }
 
+#card-1{
+    background: url(../../img/water-drop-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    border: 2px solid rgba(236,183,76,0.35);
+}
+ 
+#card-2{
+    background: url(../../img/water-drop-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    border: 2px solid rgba(125,216,205 ,0.35);
+}
+#card-3{
+    background: url(../../img/water-drop-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    border: 2px solid rgba(224,255,87,0.35);
+}
+
+#card-4{
+    background: url(../../img/water-drop-background.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    border: 2px solid rgba(125,216,205,0.35);
+}
+
+
+.card-phase{
+    position: relative;
+    top: 1em;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 0.125em 0.25em;
+    border-radius: 0.25em;
+    color: black;
+
+}
+
+.card-phase p{
+    font-size: 24px;
+}
+
+#card-1 .card-phase{
+    background-color: #ecb74c;
+}
+#card-2 .card-phase{
+    background-color: #7dd8cd;
+}
+#card-3 .card-phase{
+    background-color: #e0ff57;
+}
+#card-4 .card-phase{
+    background-color: #7dd8cd;
+}
+
+.card-title
+{
+    text-align: center;
+}
+
+.card-title p{
+    font-size:36px;
+}
+
+.card-title h1{
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 90%;
+}
+
+#card-1 .card-title{
+    color: #ecb74c;
+}
+#card-2 .card-title{
+    color: #7dd8cd;
+}
+#card-3 .card-title{
+    color: #e0ff57;
+}
+#card-4 .card-title{
+    color: #7dd8cd;
+}
+
+.card-title h1 span{
+    color: transparent; 
+    -webkit-text-stroke: 1.25px #fff;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .ProjectSection{
     background-color: var(--color-primary);
-    text-align: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    /* box-sizing: border-box;
+    display: flex;
+    justify-items: center; */
 
 }
 
-.ProjectSection h1{
-    font-size: 5rem;
-    line-height: 1.5;
-    margin-bottom: 2.5rem;
+.cardsContainer{
+   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    gap: 20px;
+    margin-top: 7rem;
+}
+
+
+
+  
+
+
+
+
+.SectionTitle {
+    text-align: center;
+    margin-bottom: 0px; /* Add space below the title */
     color:black;
+    font-size: 5rem;
+ 
+}
+
+.card{
+    width: 20rem;
+    height: 40rem;
+    background-color: #F5F5F5;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    
 }

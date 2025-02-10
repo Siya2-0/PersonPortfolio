@@ -15,7 +15,8 @@ import up from '../../img/University-of-Pretoria.jpeg'
 import serveless from '../../img/aws-training-badge-serverless-technology.a0d2d10c665985544d91af81aaf362e9d31a9116.png'
 import cloud from '../../img/cloudPractioner.png'
 
-
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 
 
@@ -151,8 +152,7 @@ export default function Skills() {
                     <li>AWS Serverless</li>
                     <li>BSc Computer Science</li>
                 </ul>
-    </div> */}
-       
+    </div> */}       
     </section>
     );
   }
